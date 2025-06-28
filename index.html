@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BT Community</title>
+  <link rel="icon" type="image/png" href="image/btcommunity.png">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      background-color: #0d0d0d;
+      color: #f0f0f0;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    header {
+      background: linear-gradient(90deg, #111, #222);
+      padding: 20px;
+      text-align: center;
+      border-bottom: 2px solid #e94560;
+    }
+    header img {
+      max-width: 100px;
+      margin-bottom: 10px;
+    }
+    nav {
+      margin-top: 15px;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 10px;
+      padding: 8px 16px;
+      text-decoration: none;
+      background-color: #e94560;
+      border-radius: 8px;
+      transition: background-color 0.3s;
+    }
+    nav a:hover {
+      background-color: #ff4d6d;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: #e94560;
+      margin-bottom: 20px;
+    }
+    .service p {
+      font-size: 18px;
+      line-height: 1.6;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 0 10px #00000055;
+    }
+    th, td {
+      padding: 15px;
+      text-align: left;
+    }
+    th {
+      background-color: #e94560;
+      color: white;
+    }
+    td {
+      background-color: #1e1e1e;
+    }
+    .discord-button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 24px;
+      background-color: #5865F2;
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 4px 12px #00000066;
+    }
+    .discord-button:hover {
+      background-color: #4752c4;
+    }
+    .team {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: center;
+      margin-top: 40px;
+    }
+    .member {
+      background: linear-gradient(145deg, #1a1a1a, #111);
+      padding: 20px;
+      border-radius: 16px;
+      width: 220px;
+      text-align: center;
+      transition: transform 0.3s, box-shadow 0.3s;
+      box-shadow: 0 0 15px #00000077;
+    }
+    .member:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 25px #e94560aa;
+    }
+    .member img {
+      width: 100px;
+      border-radius: 50%;
+      border: 3px solid #e94560;
+      margin-bottom: 10px;
+    }
+    .member h3 {
+      margin: 10px 0 5px;
+      color: #e94560;
+      font-size: 20px;
+    }
+    .member p {
+      font-size: 14px;
+      color: #ccc;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #111;
+      border-top: 1px solid #e94560;
+      font-size: 14px;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="image/btcommunity.png" alt="BT Community Logo">
+    <h1>BT Community</h1>
+    <p>Design Quần Áo | Dev FiveM | Minecraft | Discord Server</p>
+    <nav>
+      <a href="#design">Design</a>
+      <a href="#fivem">FiveM</a>
+      <a href="#minecraft">Minecraft</a>
+      <a href="#discord">Discord</a>
+      <a href="#team">Team</a>
+    </nav>
+  </header>
+
+  <section id="design" class="service">
+    <h2>🎨 Thiết kế Quần Áo</h2>
+    <p>Chuyên tạo mẫu hoodie, vest, jacket, t-shirt... theo phong cách hiện đại, gaming và thời trang đường phố.</p>
+    <img src="image/v2.png" alt="Bảng giá quần áo" style="width:100%; max-width:900px; margin-top:20px; border-radius:10px;">
+  </section>
+
+  <section id="fivem" class="service">
+    <h2>🛠️ Phát triển FiveM</h2>
+    <p>Viết script, phát triển hệ thống RP, config job, HUD, EUP, server chiếm đóng hoặc sinh tồn tùy biến theo yêu cầu.</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Tên Server</th>
+          <th>Development</th>
+          <th>Link Discord</th>
+          <th>Trạng thái</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>NIGHT COMMUNITY</td>
+          <td>X Development</td>
+          <td><a href="" target="_blank" style="color: #5865F2; text-decoration: underline;">Tham gia</a></td>
+          <td><span style="display:inline-block; padding:6px 12px; background-color: #dc3545; color: white; border-radius: 6px; font-weight: bold;">Đã Đóng Cửa</span></td>
+        </tr>
+      </tbody>
+    </table>
+</section>
+
+  <section id="discord" class="service">
+    <h2>🤖 Hệ thống Discord</h2>
+    <p>Setup Discord chuyên nghiệp với bot tự động, phân role, chống scam, verify tự động và các hệ thống cộng đồng.</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Mức độ</th>
+          <th>Giá (VNĐ)</th>
+          <th>Nội dung chính</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Cơ bản</td>
+          <td>Miễn phí – 200k</td>
+          <td>Setup đơn giản, bot cơ bản, role và channel cơ bản</td>
+        </tr>
+        <tr>
+          <td>Trung bình</td>
+          <td>200k – 500k</td>
+          <td>Thêm hệ thống phân quyền, auto role, bot nâng cao, giao diện đẹp</td>
+        </tr>
+        <tr>
+          <td>Cao cấp</td>
+          <td>500k – 1 triệu+</td>
+          <td>Có verify, ticket, emoji/banner, custom hóa, tối ưu chuyên nghiệp</td>
+        </tr>
+        <tr>
+          <td>Premium</td>
+          <td>1 triệu – 3 triệu+</td>
+          <td>Thiết kế full bộ, bot code tay, kết nối API, hỗ trợ dài hạn</td>
+        </tr>
+      </tbody>
+    </table>
+    <a class="discord-button" href="https://discord.gg/DkHtNnNz" target="_blank">Tham Gia Discord</a>
+  </section>
+
+  <section id="team" class="service">
+    <h2>👥 Giới thiệu Team</h2>
+    <div class="team">
+      <div class="member">
+        <img src="image/x.png" alt="X">
+        <h3>X Development</h3>
+        <p>Founder & Leader, Development, Designer</p>
+      </div>
+      <div class="member">
+        <img src="image/bun.png" alt="bun">
+        <h3>Devid Bun</h3>
+        <p>Development, Seller</p>
+      </div>
+      <div class="member">
+        <img src="image/sunny.png" alt="sunny">
+        <h3>Sunny</h3>
+        <p>Hỗ Trợ Discord</p>
+      </div>
+      <div class="member">
+        <img src="image/kas.png" alt="kas">
+        <h3>Kasshi</h3>
+        <p>Desginer, Seller</p>
+      </div>
+      <div class="member">
+        <img src="image/hien.png" alt="hien">
+        <h3>Hien</h3>
+        <p>Seller</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 BT Community. All rights reserved.
+  </footer>
+</body>
+</html>
